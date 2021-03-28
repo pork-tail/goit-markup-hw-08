@@ -1,0 +1,135 @@
+// .page-header {
+//     padding-top: 24px;
+//     padding-bottom: 24px;
+//     border-bottom: 1px solid #ECECEC;
+// }
+
+// .main-nav {
+//     display: flex;
+//     align-items: center;
+
+//     .link {
+//         position: relative;
+//     }
+
+
+//     .logo {
+//         margin-right: 93px;
+//         color: var(--accent-color);
+//         font-family: "Raleway",
+//             sans-serif;
+//         outline: none;
+//         text-decoration: none;
+//         font-weight: 700;
+//         font-size: 26px;
+//         line-height: 1.2;
+
+//         & .color {
+//             color: var(--title-text-color);
+//         }
+//     }
+// }
+
+// /* ================= END LOGO ================= */
+
+// /* =============== SITE NAV =================== */
+
+// .site-nav {
+//     display: flex;
+//     align-items: center;
+
+//     .item {
+//         &:not(:last-child) {
+//             margin-right: 50px;
+//         }
+//     }
+
+//     .link {
+//         color: var(--title-text-color);
+
+//         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+//         font-weight: 500;
+//         line-height: 1.14;
+//         letter-spacing: 0.02em;
+
+//         &:hover,
+//         &:focus {
+//             color: var(--accent-color);
+//         }
+//     }
+
+//     .link.current {
+//         color: var(--accent-color);
+
+//         &::after {
+//             position: absolute;
+//             content: "";
+//             height: 4px;
+//             width: 100%;
+//             border-radius: 2px;
+//             background-color: var(--accent-color);
+//             display: block;
+//             margin-top: 25px;
+//         }
+//     }
+// }
+
+// /* === END SITE NAV ===  */
+
+// /* === CONTACT ==== */
+
+// .contact {
+//     display: flex;
+//     align-items: center;
+//     margin-left: auto;
+//     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+//     .item {
+//         position: relative;
+
+//         &:not(:last-child) {
+//             margin-right: 50px;
+//         }
+//     }
+
+//     .link {
+
+//         color: var(--primary-text-color);
+
+//         font-weight: 500;
+//         line-height: 1.14;
+//         letter-spacing: 0.02em;
+
+//         &.mail {
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//         }
+
+//         &.tel {
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//         }
+
+//         &:hover,
+//         &:focus {
+//             color: var(--accent-color);
+
+//             & .icon {
+//                 fill: var(--accent-color);
+//             }
+//         }
+
+
+//     }
+
+//     .mail.icon {
+//         margin-right: 10px;
+//     }
+
+//     .tel.icon {
+//         margin-right: 10px;
+//     }
+// }

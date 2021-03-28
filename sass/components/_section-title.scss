@@ -1,0 +1,29 @@
+.section-title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    text-align: center;
+    margin-bottom: 30px;
+
+    .container-join &,
+    .container-form & {
+        display: block;
+        margin-bottom: 20px;
+        color: var(--primary-white-color);
+        text-align: left;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.14;
+        text-transform: uppercase;
+    }
+
+    .modal & {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.15;
+        margin-bottom: 12px;
+    }
+}
