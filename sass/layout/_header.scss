@@ -36,6 +36,11 @@
     padding: 0;
     border: none;
     background-color: transparent;
+
+    &:hover .mobile-open-icon,
+    &:focus .mobile-open-icon {
+        fill: var(--accent-color);
+    }
 }
 
 .mobile-open-icon {
@@ -56,6 +61,7 @@
     background-color: var(--primary-white-color);
     padding: 48px 40px;
     transition: all 250ms linear;
+    z-index: 2;
 
     transform: translateX(-50%) translateY(-100%);
 }
@@ -71,7 +77,13 @@
     padding: 0;
     border: none;
     background-color: transparent;
+
+    &:hover .mobile-menu-close-icon,
+    &:focus .mobile-menu-close-icon {
+        fill: var(--accent-color);
+    }
 }
+
 
 .mobile-menu-close-icon {
     width: 40px;
