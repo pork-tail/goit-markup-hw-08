@@ -18,6 +18,10 @@
         font-weight: 700;
         line-height: 1.14;
         text-transform: uppercase;
+
+        @media screen and (min-width: 1200px) {
+            text-align-last: left;
+        }
     }
 
     .modal & {

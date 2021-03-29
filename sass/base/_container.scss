@@ -1,33 +1,47 @@
 .container {
     margin: 0 auto;
-    max-width: 480px;
     padding-right: 15px;
     padding-left: 15px;
 
+    @media screen and (min-width: 480px) {
+        width: 480px;
+    }
+
     @media screen and (min-width: 768px) {
-        max-width: 768px;
+        width: 768px;
 
     }
 
     @media screen and (min-width: 1200px) {
-        max-width: 1200px;
+        width: 1200px;
 
     }
 
     .page-header & {
         display: flex;
         align-items: center;
-
+        justify-content: space-between;
     }
 
     .footer & {
         display: flex;
+
         flex-direction: column;
         align-items: center;
         justify-content: center;
 
         @media screen and (min-width: 768px) {
+            align-items: start;
+            flex-wrap: wrap;
             flex-direction: row;
+            justify-content: space-around;
+        }
+
+        @media screen and (min-width: 1200px) {
+            align-items: start;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: start;
         }
     }
 }

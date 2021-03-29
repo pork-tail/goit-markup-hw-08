@@ -28,6 +28,11 @@
         .container-team {
             padding-top: 30px;
             padding-bottom: 24px;
+
+            @media screen and (min-width: 1200px) {
+                padding-bottom: 30px;
+            }
+
         }
     }
 

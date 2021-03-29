@@ -35,14 +35,6 @@
         border-top: none;
     }
 
-    & .container-project {
-        padding: 20px 24px;
-        padding-top: 20px;
-
-        border: 1px solid #EEEEEE;
-        border-top: none;
-    }
-
     & .section-description {
         color: var(--primary-text-color);
 
@@ -103,10 +95,10 @@
         transform: translate(-50%, -50%);
     }
 
-    // &:hover .project-link-descripion,
-    // &:focus .project-link-descripion {
-    //     transform: translateY(0);
-    // }
+    &:hover .project-link-descripion,
+    &:focus .project-link-descripion {
+        transform: translateY(0);
+    }
 }
 
 //  &:hover .project-link-descripion,
