@@ -244,10 +244,13 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 450px;
+  max-width: 94%;
+  max-height: 94%;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 40px;
+  overflow-y: scroll;
 }
 
 @media screen and (min-width: 1200px) {
@@ -436,6 +439,7 @@ body {
   width: 100vw;
   max-width: 480px;
   height: 100vh;
+  overflow: scroll;
   top: 0;
   left: 50%;
   background-color: var(--primary-white-color);
